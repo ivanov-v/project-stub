@@ -9,10 +9,18 @@
     content : [
         {
             block : 'hello',
-            content: {
-                elem: 'greeting',
-                content: 'Привет, %пользователь%!'
-            }
+            content: [
+                {
+                    elem: 'greeting',
+                    content: 'Привет, %пользователь%!'
+                },
+                {
+                    block: 'input',
+                    mods : { theme: 'islands', size : 's' },
+                    name : 'name',
+                    placeholder : 'Имя пользователя'
+                }
+            ]
         }
     ]
 })
