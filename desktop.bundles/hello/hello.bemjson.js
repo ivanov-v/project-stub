@@ -16,9 +16,14 @@
                 },
                 {
                     block: 'input',
-                    mods : { theme: 'islands', size : 's' },
+                    mods : { theme: 'islands', size : 'm' },
                     name : 'name',
                     placeholder : 'Имя пользователя'
+                },
+                {
+                    block: 'button',
+                    mods: { theme: 'islands', size: 'm', type: 'submit' },
+                    text: 'Отправить!'
                 }
             ]
         }
